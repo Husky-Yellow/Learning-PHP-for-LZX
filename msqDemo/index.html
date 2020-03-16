@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>用PHP向数据库中实现简单的增删改查</title>
+</head>
+<body>
+<br />
+<h1>Insert:</h1>
+<form action="insert.php" method="post">
+    username:<input type="name" name="username"/>
+    <br />
+    password:<input type="password" name="password"/>
+    <input type="submit" value="submit"/>
+</form>
+<br /><hr /><br />
+<h1>Delete</h1>
+<form action="delete.php" method="post">
+    username:<input type="name" name="username" />
+    <br />
+    Are you sure?<input type="submit" value="sure" />
+</form>
+<br /><hr /><br />
+<h1>Update</h1>
+<form action="update.php" method="post">
+    username:<input type="name" name="username"/>
+    <br />
+    You want to change your password into:<input type="password" name="password"/>
+    <input type="submit" value="submit"/>
+</form>
+<br /><hr /><br />
+</body>
+</html>
